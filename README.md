@@ -2,7 +2,6 @@
 
 <div align="center">
   
-![Nexa Foundation](https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=1200&h=400&fit=crop)
 
 **Transforming Rural Education Through Technology & Innovation**
 
@@ -95,8 +94,8 @@ Ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/nexa-foundation-website.git
-   cd nexa-foundation-website
+   git clone https://github.com/Nakul-Jaglan/nexa.git
+   cd nexa
    ```
 
 2. **Install dependencies**
@@ -276,14 +275,10 @@ We welcome contributions to improve the Nexa Foundation website! Here's how you 
 - **Documentation**: Check the docs for detailed implementation guides
 
 ### **Foundation Contact**
-- **Website**: [www.nexafoundation.org](https://www.nexafoundation.org)
-- **Email**: info@nexafoundation.org
-- **Media Inquiries**: media@nexafoundation.org
-- **Phone**: +91-XXX-XXX-XXXX
+- **Website**: [www.quantel.in](https://www.quantel.in)
+- **Email**: support@quantel.in
+- **Phone**: +91-85273-87917
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -309,7 +304,7 @@ This project is built on the shoulders of giants. We're grateful to all the open
 
 **Made with ❤️ for rural education in India**
 
-[🌐 Website](https://www.nexafoundation.org) • [📧 Contact](mailto:info@nexafoundation.org) • [🐦 Twitter](https://twitter.com/nexafoundation) • [📱 LinkedIn](https://linkedin.com/company/nexafoundation)
+[🌐 Website](https://www.quantel.in) • [📧 Contact](mailto:support@quantel.in) • [🐦 Instagram](https://www.instagram.com/quantelforbusiness) • [📱 LinkedIn](https://www.linkedin.com/company/quantel-in/)
 
 ⭐ **Star this repository if you found it helpful!** ⭐
 
