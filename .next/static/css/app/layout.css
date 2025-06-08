@@ -607,9 +607,6 @@ body{
 .mt-8{
   margin-top: 2rem;
 }
-.mt-10{
-  margin-top: 2.5rem;
-}
 .block{
   display: block;
 }
@@ -679,20 +676,8 @@ body{
 .min-h-\[115vh\]{
   min-height: 115vh;
 }
-.min-h-\[70vh\]{
-  min-height: 70vh;
-}
-.min-h-\[80vh\]{
-  min-height: 80vh;
-}
 .min-h-screen{
   min-height: 100vh;
-}
-.min-h-\[10vh\]{
-  min-height: 10vh;
-}
-.min-h-\[0vh\]{
-  min-height: 0vh;
 }
 .w-0{
   width: 0px;
@@ -1165,6 +1150,9 @@ body{
 .to-gold{
   --tw-gradient-to: #D4AF37 var(--tw-gradient-to-position);
 }
+.to-gray-800{
+  --tw-gradient-to: #1f2937 var(--tw-gradient-to-position);
+}
 .to-green-600{
   --tw-gradient-to: #16a34a var(--tw-gradient-to-position);
 }
@@ -1200,9 +1188,6 @@ body{
 }
 .to-yellow-500{
   --tw-gradient-to: #eab308 var(--tw-gradient-to-position);
-}
-.to-gray-800{
-  --tw-gradient-to: #1f2937 var(--tw-gradient-to-position);
 }
 .object-cover{
   -o-object-fit: cover;
@@ -1292,9 +1277,6 @@ body{
 }
 .pt-8{
   padding-top: 2rem;
-}
-.pt-0{
-  padding-top: 0px;
 }
 .text-left{
   text-align: left;

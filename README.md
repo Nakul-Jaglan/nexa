@@ -86,7 +86,7 @@ Bridging the digital divide in rural India by providing quality education, techn
 ### Prerequisites
 
 Ensure you have the following installed:
-- **Node.js** (version 16.0 or higher)
+- **Node.js** (version 13.0 or higher)
 - **npm** or **yarn** package manager
 - **Git** for version control
 
@@ -137,30 +137,31 @@ The project is configured for static export, making it ready for deployment on a
 ## 📁 Project Structure
 
 ```
-nexa-foundation-website/
-├── 📁 app/                      # Next.js App Router pages
-│   ├── 📄 layout.js            # Root layout component
-│   ├── 📄 page.js              # Homepage
-│   ├── 📄 globals.css          # Global styles
-│   ├── 📁 blog/                # Blog system
-│   │   ├── 📄 page.js          # Blog listing page
-│   │   └── 📁 [id]/            # Dynamic blog posts
-│   │       ├── 📄 page.js      # Server component
-│   │       └── 📄 BlogPostClient.js # Client component
-│   ├── 📁 donate/              # Donation system
-│   ├── 📁 resources/           # Media & press kit
-│   ├── 📁 contact/             # Contact information
-│   ├── 📁 team/                # Team profiles
-│   ├── 📁 mission/             # Mission & values
-│   └── 📁 [other-pages]/       # Additional pages
-├── 📁 components/              # Reusable components
-│   ├── 📁 ui/                  # UI component library
-│   ├── 📁 layout/              # Layout components
-│   └── 📁 sections/            # Page sections
-├── 📁 hooks/                   # Custom React hooks
-├── 📁 lib/                     # Utility functions
-├── 📁 public/                  # Static assets
-└── 📄 [config-files]          # Configuration files
+nexa/
+├── app/
+│   ├── mission/
+│   ├── blog/
+│       └── [id]/
+│   ├── contact/
+│   ├── donate/
+│   ├── join/
+│   ├── resources/
+│   ├── stories/
+│   ├── team/
+│   ├── values/
+│   ├── terms/
+│   ├── privacy/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── components/
+│   ├── layout/
+│   ├── sections/
+│   └── ui/
+├── public/
+│   └── images/
+└── README.md
 ```
 
 ## 🎨 Design System
@@ -224,54 +225,11 @@ const nextConfig = {
 - **Component-based** utility classes
 - **Responsive breakpoints** for all devices
 
-## 🚀 Deployment
-
-### **Static Hosting Platforms**
-The project is configured for static export and can be deployed on:
-
-- **Vercel** (Recommended for Next.js)
-- **Netlify**
-- **GitHub Pages**
-- **AWS S3 + CloudFront**
-- **Google Firebase Hosting**
-
-### **Deployment Steps**
-1. Build the project: `npm run build`
-2. The `out/` directory contains the static files
-3. Upload to your hosting platform
-4. Configure custom domain if needed
-
-## 🤝 Contributing
-
-We welcome contributions to improve the Nexa Foundation website! Here's how you can help:
-
-### **Development Workflow**
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### **Contribution Guidelines**
-- Follow the existing code style and conventions
-- Write clear, descriptive commit messages
-- Test your changes thoroughly before submitting
-- Update documentation for any new features
-- Ensure responsive design works across devices
-
-### **Areas for Contribution**
-- 🐛 Bug fixes and improvements
-- ✨ New features and enhancements
-- 📚 Documentation improvements
-- 🎨 Design and UX enhancements
-- ♿ Accessibility improvements
-- 🚀 Performance optimizations
 
 ## 📞 Support & Contact
 
 ### **Technical Support**
 - **Issues**: Report bugs or request features on GitHub Issues
-- **Discussions**: Join community discussions for general questions
 - **Documentation**: Check the docs for detailed implementation guides
 
 ### **Foundation Contact**
@@ -279,21 +237,12 @@ We welcome contributions to improve the Nexa Foundation website! Here's how you 
 - **Email**: support@quantel.in
 - **Phone**: +91-85273-87917
 
-
-## 🙏 Acknowledgments
-
-### **Special Thanks**
-- **Design Inspiration** - Modern non-profit organizations worldwide
-- **Photo Credits** - Pexels and Unsplash photographers
-- **Community Support** - Open source contributors and maintainers
-- **Technology Partners** - Next.js, Vercel, and the React ecosystem
-
 ### **Dependencies**
 This project is built on the shoulders of giants. We're grateful to all the open-source projects that make this possible:
 
-- **React Team** - For the amazing React framework
-- **Vercel Team** - For Next.js and deployment platform
-- **Tailwind Labs** - For the utility-first CSS framework
+- **React** - For the amazing React framework
+- **Vercel** - For Next.js and deployment platform
+- **Tailwind CSS** - For the utility-first CSS framework
 - **Framer** - For the smooth animation library
 - **GreenSock** - For professional-grade animations
 - **Radix UI** - For accessible component primitives
